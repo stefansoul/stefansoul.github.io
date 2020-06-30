@@ -1,0 +1,62 @@
+body,
+
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+h1 {
+
+	font-size: 3rem;
+	color: #6e7377;
+
+}
+
+hr {
+
+	border-color:white;
+	border-width: 1px;
+	max-width:65px;
+}
+
+.buffer { /*buffer puts space in between stuff. just put it in between the respective elements */
+
+	height: 50px;
+}
+
+.btn {
+
+	font-weight:700;
+	border-radius: 300px;
+}
+
+.btn-primary {
+
+	background-color: #85ceda;
+	border-color: #85ceda; /* or the color of the background so it's unnoticed */
+
+}
+	/* if hover has a bigger pixel border, it creates the effect
+		of moving	*/
+.btn-primary:hover {
+
+	background-color: #ee4b08;
+	border-color: #ee4b08;
+	border-width: 5px;
+}
+
+.btn-xl {
+	/*	padding appears on a webpage as it increases the
+	button's area because of bootstrap. maybe works same 
+	on bare css */
+
+	padding:1rem 2rem;
+
+}
